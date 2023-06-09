@@ -120,10 +120,6 @@ body {
   cursor: pointer;
 }
 
-footer {
-  margin-top: 2rem;
-  color: white;
-}
 
 @media screen and (max-width: 500px) {
   body {
@@ -159,8 +155,42 @@ footer {
     justify-content: space-between;
   }
 
-  footer {
-    color: white;
+}
+
+@media screen and (max-width: 860px) {
+  body {
+    background-image: url("assets/bg-mobile-dark\ \(1080x1920\).jpg");
+    overflow-x: hidden;
+  }
+
+  .light {
+    background-image: url("assets/bg-mobile-light\ \(1080x1920\).jpg");
+  }
+
+  .container {
+    width: 80vw;
+    height: 100vh;
+
+    margin-top: 10rem;
+  }
+
+  .main>button {
+    width: 60%;
+    padding: 15px 10px;
+
+  }
+
+  #change-color {
+    width: 20vw;
+    height: 4vh;
+  }
+
+  .social-media {
+    width: 80%;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: space-between;
   }
 
 }
