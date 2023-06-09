@@ -157,7 +157,7 @@ body {
 
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 884px) {
   body {
     background-image: url("assets/bg-mobile-dark\ \(1080x1920\).jpg");
     overflow-x: hidden;
